@@ -3,11 +3,6 @@ on:
   pull_request:
     types:
       - opened
-  push:
-    branches: 
-      - main
-      - 'dev-*'   # branch filter 'dev-new dev-this-is-new'
-      - 'feat/**' # feat/new feat/new/button
   workflow_dispatch:
 jobs:
   deploy:
