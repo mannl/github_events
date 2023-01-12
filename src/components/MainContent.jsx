@@ -6,6 +6,7 @@ function MainContent() {
   const [helpVisible, setHelpVisible] = useState(false);
 
   function toggleHelp() {
+    // Testing
     setHelpVisible((isVisible) => !isVisible);
   }
 
